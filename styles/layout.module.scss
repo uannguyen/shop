@@ -1,0 +1,10 @@
+$primary-color: #64ff00;
+
+.test {
+  color: red;
+  font-size: 18px;
+}
+
+:export {
+  testColor: $primary-color;
+}
