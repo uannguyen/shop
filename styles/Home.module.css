@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: #fff;
 }
 
 .main {
@@ -113,4 +114,19 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+/*  */
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  color: #404040;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all, 0.3s;
 }
